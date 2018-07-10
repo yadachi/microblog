@@ -1,5 +1,6 @@
 venv/*
 app/__pycache__/*
+logs
 __pycache__
 *.py[cod]
 *.pyc
