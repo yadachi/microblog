@@ -36,7 +36,7 @@ class EditProfileForm(FlaskForm):
     submit = SubmitField('Submit')
 
     def __init__(self, original_username, *arg, **kwargs):
-        supper(EditProfileForm, self).__init__(*arg, **kwargs)
+        super(EditProfileForm, self).__init__(*arg, **kwargs)
         self.original_username = original_username
 
     def validiate_username(self, username):
